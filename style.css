@@ -1,0 +1,129 @@
+body {
+  background-color: rgb(240, 240, 240);
+  font-family: 'Lato', sans-serif;
+  text-decoration: none;
+  text-align: center;
+  margin: 0px;
+  position: relative;
+}
+
+h1  {
+  color: rgb(120, 120, 120);
+  font-size: 4em;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  font-weight: bold;
+  color: inherit;
+}
+
+#banner {
+  background-image: url('images/bannerlaptop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0px;
+  /* height: 100%; */
+}
+
+
+#banner h1 h2 {
+  padding: 40px;
+}
+
+#banner h1 {
+  color: black;
+  padding: 35px;
+}
+
+#banner h2 {
+  color: darkgrey;
+  padding: 35px;
+}
+
+#footer {
+  position: absolute;
+  width: 100%;
+  background-color: black;
+  color: white;
+}
+
+.subfooter {
+  margin: 50px;
+}
+
+
+.fab {
+  width: 30px;
+}
+
+.banner-image {
+  width: 50vw;
+}
+
+.img-circle {
+  height: 35vh;
+  /* padding: 0px; */
+}
+
+.container a {
+    text-decoration: none;
+}
+
+.card a:hover {
+  font-style: bold;
+}
+
+.card-white {
+  background: white;                         /* White background */
+  border-radius: 4px;                        /* Small radius */
+  padding: 24px;                             /* Internal space */
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);    /* Light shadow */
+  text-align: center;
+  margin: 30px;
+  height: 250px;
+  width: 300px;
+}
+
+.card-white h3{
+  padding-bottom: 15px;
+}
+
+.card-white img{
+  width: 50%;
+  margin: auto;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+.int-link {
+  padding: 30px;
+}
+
+.int-link a:hover {
+  text-decoration: none;
+  font-style: bold;
+}
+
+#map {
+  /* height: 400px;
+  width: 100vw; */
+  text-align: center;
+}
+
+#map iframe {
+  width: 95vw;
+  height: 70vh;
+}
