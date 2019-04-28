@@ -1,10 +1,13 @@
 body {
-  background-color: rgb(240, 240, 240);
+  background-image: url('images/bannerlaptop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
   font-family: 'Lato', sans-serif;
   text-decoration: none;
   text-align: center;
   margin: 0px;
   position: relative;
+  height: 100%;
 }
 
 h1  {
